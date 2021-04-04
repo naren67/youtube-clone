@@ -1,0 +1,38 @@
+.list-of-rows{
+          display: flex;
+          align-items: center;
+          width: 100%;
+          padding-left:40px ;
+          padding-right:40px ;
+          cursor: pointer;
+}
+
+.icons__img{
+          color: rgb(99, 94, 94);
+          margin-right: 20px;
+          align-items: center;
+}
+
+
+.icons__name{
+          padding: 10px;
+          align-items: center;
+}
+
+/* hover effect */
+
+
+.icons__img:hover{
+          color: red;
+ }
+
+ .icons__name:hover{
+          color: black;
+}
+
+.list-of-rows:hover{
+          background: rgba(128, 128, 128, 0.326);
+          flex: 1;
+}
+ 
+ 

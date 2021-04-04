@@ -1,0 +1,76 @@
+.listOfVideos{
+          display: flex;
+          margin-left: 30px;
+          margin-top: 50px;
+}
+
+.thumbnailed img{
+          width: 358.7px;
+          height: 201.26;
+          object-fit: contain;
+          margin-right: 20px;
+          
+}
+
+.listedVideosInfos{
+          max-width: 358.7px;
+          
+}
+
+.viewsAndTimeAgo{
+          display: flex;
+          color: rgb(96, 92, 92);
+          font-size: 13.5px;
+          margin-bottom: 8px;
+}
+
+.tickColor{
+          color: rgb(84, 79, 79);
+}
+
+.resultLogo{
+          color: rgba(162, 159, 159, 0.734);
+          margin-right: 10px;
+}
+
+.channelNameAndTick{
+          display: flex;
+          align-items: center;
+}
+
+.theName{
+          margin-right: 5px;
+}
+
+.oldNew{
+          display: flex;
+          margin-top: 8px;
+          color: rgb(96, 92, 92);
+          font-size: 13.5px;
+}
+
+.titled{
+          font-size: 20px;
+          margin-bottom: 5px;
+}
+
+.desc{
+          margin-top: 10px;
+          color: rgb(96, 92, 92);
+}
+
+.newAndNew{
+          margin-right: 15px;
+          background: gainsboro;
+          padding: 1px 5px;
+          align-items: center;
+          font-size: 13px;
+}
+
+.quality{
+          background: gainsboro;
+          padding: 1px 5px;
+          align-items: center;
+          font-size: 13px;
+}
+

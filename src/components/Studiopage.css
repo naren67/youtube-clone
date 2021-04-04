@@ -1,0 +1,78 @@
+
+.studioPersonInfo{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+          margin-bottom: 30px;
+}
+
+.studioBottomLine{
+          border-bottom: 1.5px solid rgba(208, 203, 203, 0.632);
+}
+
+.studioMiddleInfo{
+          max-width: 300px;
+          cursor: pointer;
+
+}
+
+.studioName{
+          font-size: 20px;
+          cursor: pointer;
+}
+
+.studioSubAndViews{
+          display: flex;
+          cursor: pointer;
+}
+
+.studioLogo{
+          margin-right: 180px;
+          cursor: pointer;
+}
+
+.studioMiddleInfo{
+          margin-right: 80px;
+          cursor: pointer;
+}
+
+.studioBtn{
+          margin-left: 20px;
+          margin-right: 30px;
+}
+
+.studioSubBtn{
+          padding: 12px 20px;
+          outline: none;
+          border: none;
+          background: gainsboro;
+          cursor: pointer;
+}
+
+.studioSubAndViews{
+          color: rgb(96, 92, 92);
+          font-size: 14px;
+          margin-top: 8px;
+          margin-bottom: 6px;
+}
+
+.studioDescription{
+          color: rgb(96, 92, 92);
+          font-size: 14px;
+}
+
+.bell{
+          color:rgb(133, 128, 128) ;
+}
+
+.verifed{
+          display: flex;
+          align-items: center;
+}
+
+.tick{
+          color: rgb(84, 79, 79);
+          margin-left: 10px;
+          
+}

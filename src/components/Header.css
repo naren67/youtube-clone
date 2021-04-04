@@ -1,0 +1,104 @@
+.header{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 15px 40px;
+          position: sticky;
+          top: 0px;
+          left: 0px;
+          z-index: 100px;
+          flex: 1;
+          background: white;
+}
+
+.header__icon{
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+}
+
+.header__search{
+          width: 50%;
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+}
+
+
+.header__search input{
+          width: 550px;
+          height: 34px;
+          border: 2px solid gainsboro;
+          padding-left: 20px;
+          padding-top: 0px;
+          padding-bottom: 0px;
+}
+
+.search-btn{
+          cursor: pointer;
+          color:rgb(167, 163, 163);
+          align-items: center;
+          margin-right: 20px;
+          margin-left: 20px;
+}
+
+.search-icon{
+          border: 2px solid gainsboro;
+          padding: 1.4px 0px;
+          align-items: center;
+          border-left: none;
+}
+
+.mic{
+          margin-left: 10px;
+}
+
+.burger{
+          margin-right: 35px;
+          cursor: pointer;
+}
+
+.u-logo{
+          height: 35px;
+          cursor: pointer;
+}
+
+.header__menus{
+          max-width: 200px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          cursor: pointer;
+}
+
+.videocall{
+          margin-right: 20px;
+          cursor: pointer;
+}
+
+.dot-menu{
+          margin-right: 20px; 
+          cursor: pointer;
+}
+
+.bell{
+          margin-right: 20px;
+          cursor: pointer;
+}
+
+.account{
+          margin-right: 20px;
+          cursor: pointer;
+}
+
+sup{
+          font-size: 10px;
+          cursor: pointer;
+}
+
+.logo-link{
+          display: flex;
+          align-items: center;
+          text-decoration: none;
+          color: black;
+}

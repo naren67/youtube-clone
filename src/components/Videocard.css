@@ -1,0 +1,24 @@
+.the-card{
+          margin: 20px;
+          max-width: 270px;
+}
+
+.the-card__info{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+}
+
+.the-card__info p{
+          max-width: 240px;
+}
+
+.the-card__profile{
+          margin-right: 10px;
+}
+
+.thumb-pic{
+          width: 277px;
+          height: 155px;
+          margin-bottom: 10px;
+}

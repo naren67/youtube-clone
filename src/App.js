@@ -1,23 +1,55 @@
-import logo from './logo.svg';
+import React from 'react';
+import Header from './components/Header'
+import Leftbar from './components/Leftbar'
+import Rightbar from './components/Rightbar'
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
+import SearchPage from './components/SearchPage'
+
+
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+              
+              <Router>
+
+              <Header/>
+
+                <Switch>
+
+                <Route path='/search/:userInput'>
+                
+                <div className='section-two'>
+                      <Leftbar/>
+                      <SearchPage/>
+                      </div>
+                  </Route>
+              
+
+                  <Route path='/'>
+                     <div className='section-two'>
+                     <Leftbar/>
+                      <Rightbar/>
+                      
+                      </div>
+                  </Route>
+
+            
+
+                  
+                  
+                </Switch>
+              </Router>
+        
+
+        {/* <Header/>
+        
+        <div className='section-two'>
+           <Leftbar/>
+           <Rightbar/>
+        </div> */}
     </div>
   );
 }

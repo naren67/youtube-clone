@@ -1,0 +1,31 @@
+
+.SearchPage-result{
+          flex: 0.8;
+          background: rgba(128, 128, 128, 0.074);
+}
+
+.SearchPage__filter{
+          display: flex;
+          flex-direction: column;
+          margin: 20px;
+          color: rgb(99, 94, 94);
+          
+}
+
+.SearchPage__filter-line{
+          width: 100%;
+          border-bottom: 1.5px solid rgba(208, 203, 203, 0.632);
+}
+
+.SearchPage__filter-icon{
+          display: flex;
+          flex-direction: row;
+          margin-bottom: 8px;
+}
+
+.SearchPage__filter-name{
+          margin-left: 10px;
+          font-size: 15px;
+          align-items: center;
+          font-weight: 500;
+}
